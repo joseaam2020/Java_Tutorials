@@ -1,0 +1,18 @@
+package Tutorial;
+
+public class Arrays_{
+	public void array(){
+		int value = 7;
+		int[] values = new int[3];//int[3] refers to the lenght of the array
+		values[0] = 10;
+		values[1] = 20;
+		values[2] = 30;
+		for(int i=0;i < values.length;i++){
+			System.out.println(values[i]);
+		}
+		int[] numbers = {5,6,7};
+		for(int i=0;i < values.length;i++){
+			System.out.println(numbers[i]);
+		}
+	}
+}
